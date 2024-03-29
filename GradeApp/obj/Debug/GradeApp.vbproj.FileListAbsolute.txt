@@ -1,0 +1,12 @@
+C:\Users\Zawadi\source\repos\GradeApp\bin\Debug\GradeApp.exe.config
+C:\Users\Zawadi\source\repos\GradeApp\bin\Debug\GradeApp.exe
+C:\Users\Zawadi\source\repos\GradeApp\bin\Debug\GradeApp.pdb
+C:\Users\Zawadi\source\repos\GradeApp\bin\Debug\GradeApp.xml
+C:\Users\Zawadi\source\repos\GradeApp\obj\Debug\GradeApp.vbproj.AssemblyReference.cache
+C:\Users\Zawadi\source\repos\GradeApp\obj\Debug\GradeApp.Form1.resources
+C:\Users\Zawadi\source\repos\GradeApp\obj\Debug\GradeApp.Resources.resources
+C:\Users\Zawadi\source\repos\GradeApp\obj\Debug\GradeApp.vbproj.GenerateResource.cache
+C:\Users\Zawadi\source\repos\GradeApp\obj\Debug\GradeApp.vbproj.CoreCompileInputs.cache
+C:\Users\Zawadi\source\repos\GradeApp\obj\Debug\GradeApp.exe
+C:\Users\Zawadi\source\repos\GradeApp\obj\Debug\GradeApp.xml
+C:\Users\Zawadi\source\repos\GradeApp\obj\Debug\GradeApp.pdb
