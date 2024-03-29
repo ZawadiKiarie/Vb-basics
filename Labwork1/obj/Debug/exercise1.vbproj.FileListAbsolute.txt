@@ -1,0 +1,13 @@
+C:\Users\Zawadi\source\repos\exercise1\bin\Debug\exercise1.exe.config
+C:\Users\Zawadi\source\repos\exercise1\bin\Debug\exercise1.exe
+C:\Users\Zawadi\source\repos\exercise1\bin\Debug\exercise1.pdb
+C:\Users\Zawadi\source\repos\exercise1\bin\Debug\exercise1.xml
+C:\Users\Zawadi\source\repos\exercise1\obj\Debug\exercise1.vbproj.AssemblyReference.cache
+C:\Users\Zawadi\source\repos\exercise1\obj\Debug\exercise1.Form1.resources
+C:\Users\Zawadi\source\repos\exercise1\obj\Debug\exercise1.Form2.resources
+C:\Users\Zawadi\source\repos\exercise1\obj\Debug\exercise1.Resources.resources
+C:\Users\Zawadi\source\repos\exercise1\obj\Debug\exercise1.vbproj.GenerateResource.cache
+C:\Users\Zawadi\source\repos\exercise1\obj\Debug\exercise1.vbproj.CoreCompileInputs.cache
+C:\Users\Zawadi\source\repos\exercise1\obj\Debug\exercise1.exe
+C:\Users\Zawadi\source\repos\exercise1\obj\Debug\exercise1.xml
+C:\Users\Zawadi\source\repos\exercise1\obj\Debug\exercise1.pdb
