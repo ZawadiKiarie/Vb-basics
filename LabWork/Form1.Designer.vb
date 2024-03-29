@@ -55,7 +55,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnLoadObjectDemo)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Welcoming Form"
         Me.ResumeLayout(False)
 
     End Sub

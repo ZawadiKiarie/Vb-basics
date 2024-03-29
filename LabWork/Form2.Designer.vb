@@ -23,22 +23,22 @@ Partial Class Form2
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.gbDisplayTest = New System.Windows.Forms.GroupBox()
+        Me.txtSampleTest = New System.Windows.Forms.TextBox()
         Me.gbFont = New System.Windows.Forms.GroupBox()
-        Me.rbGaramond = New System.Windows.Forms.RadioButton()
-        Me.rbMagneto = New System.Windows.Forms.RadioButton()
         Me.rbTahoma = New System.Windows.Forms.RadioButton()
+        Me.rbMagneto = New System.Windows.Forms.RadioButton()
+        Me.rbGaramond = New System.Windows.Forms.RadioButton()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.gbFontStyle = New System.Windows.Forms.GroupBox()
-        Me.gbFontColor = New System.Windows.Forms.GroupBox()
-        Me.CheckBoxItalic = New System.Windows.Forms.CheckBox()
-        Me.CheckBoxBold = New System.Windows.Forms.CheckBox()
         Me.CheckBoxBoldItalic = New System.Windows.Forms.CheckBox()
-        Me.rbGreen = New System.Windows.Forms.RadioButton()
-        Me.rbBlue = New System.Windows.Forms.RadioButton()
+        Me.CheckBoxBold = New System.Windows.Forms.CheckBox()
+        Me.CheckBoxItalic = New System.Windows.Forms.CheckBox()
+        Me.gbFontColor = New System.Windows.Forms.GroupBox()
         Me.rbRed = New System.Windows.Forms.RadioButton()
+        Me.rbBlue = New System.Windows.Forms.RadioButton()
+        Me.rbGreen = New System.Windows.Forms.RadioButton()
         Me.btnLoadPicture = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
-        Me.txtSampleTest = New System.Windows.Forms.TextBox()
         Me.gbDisplayTest.SuspendLayout()
         Me.gbFont.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -56,6 +56,13 @@ Partial Class Form2
         Me.gbDisplayTest.TabStop = False
         Me.gbDisplayTest.Text = "Display Test"
         '
+        'txtSampleTest
+        '
+        Me.txtSampleTest.Location = New System.Drawing.Point(24, 49)
+        Me.txtSampleTest.Name = "txtSampleTest"
+        Me.txtSampleTest.Size = New System.Drawing.Size(151, 26)
+        Me.txtSampleTest.TabIndex = 0
+        '
         'gbFont
         '
         Me.gbFont.Controls.Add(Me.rbTahoma)
@@ -68,16 +75,16 @@ Partial Class Form2
         Me.gbFont.TabStop = False
         Me.gbFont.Text = "Font"
         '
-        'rbGaramond
+        'rbTahoma
         '
-        Me.rbGaramond.AutoSize = True
-        Me.rbGaramond.Location = New System.Drawing.Point(55, 47)
-        Me.rbGaramond.Name = "rbGaramond"
-        Me.rbGaramond.Size = New System.Drawing.Size(110, 24)
-        Me.rbGaramond.TabIndex = 0
-        Me.rbGaramond.TabStop = True
-        Me.rbGaramond.Text = "Garamond"
-        Me.rbGaramond.UseVisualStyleBackColor = True
+        Me.rbTahoma.AutoSize = True
+        Me.rbTahoma.Location = New System.Drawing.Point(314, 47)
+        Me.rbTahoma.Name = "rbTahoma"
+        Me.rbTahoma.Size = New System.Drawing.Size(92, 24)
+        Me.rbTahoma.TabIndex = 2
+        Me.rbTahoma.TabStop = True
+        Me.rbTahoma.Text = "Tahoma"
+        Me.rbTahoma.UseVisualStyleBackColor = True
         '
         'rbMagneto
         '
@@ -90,16 +97,16 @@ Partial Class Form2
         Me.rbMagneto.Text = "Magneto"
         Me.rbMagneto.UseVisualStyleBackColor = True
         '
-        'rbTahoma
+        'rbGaramond
         '
-        Me.rbTahoma.AutoSize = True
-        Me.rbTahoma.Location = New System.Drawing.Point(314, 47)
-        Me.rbTahoma.Name = "rbTahoma"
-        Me.rbTahoma.Size = New System.Drawing.Size(92, 24)
-        Me.rbTahoma.TabIndex = 2
-        Me.rbTahoma.TabStop = True
-        Me.rbTahoma.Text = "Tahoma"
-        Me.rbTahoma.UseVisualStyleBackColor = True
+        Me.rbGaramond.AutoSize = True
+        Me.rbGaramond.Location = New System.Drawing.Point(55, 47)
+        Me.rbGaramond.Name = "rbGaramond"
+        Me.rbGaramond.Size = New System.Drawing.Size(110, 24)
+        Me.rbGaramond.TabIndex = 0
+        Me.rbGaramond.TabStop = True
+        Me.rbGaramond.Text = "Garamond"
+        Me.rbGaramond.UseVisualStyleBackColor = True
         '
         'PictureBox1
         '
@@ -121,6 +128,36 @@ Partial Class Form2
         Me.gbFontStyle.TabStop = False
         Me.gbFontStyle.Text = "Font Style"
         '
+        'CheckBoxBoldItalic
+        '
+        Me.CheckBoxBoldItalic.AutoSize = True
+        Me.CheckBoxBoldItalic.Location = New System.Drawing.Point(37, 131)
+        Me.CheckBoxBoldItalic.Name = "CheckBoxBoldItalic"
+        Me.CheckBoxBoldItalic.Size = New System.Drawing.Size(104, 24)
+        Me.CheckBoxBoldItalic.TabIndex = 2
+        Me.CheckBoxBoldItalic.Text = "Bold Italic"
+        Me.CheckBoxBoldItalic.UseVisualStyleBackColor = True
+        '
+        'CheckBoxBold
+        '
+        Me.CheckBoxBold.AutoSize = True
+        Me.CheckBoxBold.Location = New System.Drawing.Point(37, 85)
+        Me.CheckBoxBold.Name = "CheckBoxBold"
+        Me.CheckBoxBold.Size = New System.Drawing.Size(67, 24)
+        Me.CheckBoxBold.TabIndex = 1
+        Me.CheckBoxBold.Text = "Bold"
+        Me.CheckBoxBold.UseVisualStyleBackColor = True
+        '
+        'CheckBoxItalic
+        '
+        Me.CheckBoxItalic.AutoSize = True
+        Me.CheckBoxItalic.Location = New System.Drawing.Point(37, 39)
+        Me.CheckBoxItalic.Name = "CheckBoxItalic"
+        Me.CheckBoxItalic.Size = New System.Drawing.Size(68, 24)
+        Me.CheckBoxItalic.TabIndex = 0
+        Me.CheckBoxItalic.Text = "Italic"
+        Me.CheckBoxItalic.UseVisualStyleBackColor = True
+        '
         'gbFontColor
         '
         Me.gbFontColor.Controls.Add(Me.rbRed)
@@ -133,46 +170,16 @@ Partial Class Form2
         Me.gbFontColor.TabStop = False
         Me.gbFontColor.Text = "Font Color"
         '
-        'CheckBoxItalic
+        'rbRed
         '
-        Me.CheckBoxItalic.AutoSize = True
-        Me.CheckBoxItalic.Location = New System.Drawing.Point(37, 39)
-        Me.CheckBoxItalic.Name = "CheckBoxItalic"
-        Me.CheckBoxItalic.Size = New System.Drawing.Size(68, 24)
-        Me.CheckBoxItalic.TabIndex = 0
-        Me.CheckBoxItalic.Text = "Italic"
-        Me.CheckBoxItalic.UseVisualStyleBackColor = True
-        '
-        'CheckBoxBold
-        '
-        Me.CheckBoxBold.AutoSize = True
-        Me.CheckBoxBold.Location = New System.Drawing.Point(37, 85)
-        Me.CheckBoxBold.Name = "CheckBoxBold"
-        Me.CheckBoxBold.Size = New System.Drawing.Size(67, 24)
-        Me.CheckBoxBold.TabIndex = 1
-        Me.CheckBoxBold.Text = "Bold"
-        Me.CheckBoxBold.UseVisualStyleBackColor = True
-        '
-        'CheckBoxBoldItalic
-        '
-        Me.CheckBoxBoldItalic.AutoSize = True
-        Me.CheckBoxBoldItalic.Location = New System.Drawing.Point(37, 131)
-        Me.CheckBoxBoldItalic.Name = "CheckBoxBoldItalic"
-        Me.CheckBoxBoldItalic.Size = New System.Drawing.Size(104, 24)
-        Me.CheckBoxBoldItalic.TabIndex = 2
-        Me.CheckBoxBoldItalic.Text = "Bold Italic"
-        Me.CheckBoxBoldItalic.UseVisualStyleBackColor = True
-        '
-        'rbGreen
-        '
-        Me.rbGreen.AutoSize = True
-        Me.rbGreen.Location = New System.Drawing.Point(48, 41)
-        Me.rbGreen.Name = "rbGreen"
-        Me.rbGreen.Size = New System.Drawing.Size(79, 24)
-        Me.rbGreen.TabIndex = 0
-        Me.rbGreen.TabStop = True
-        Me.rbGreen.Text = "Green"
-        Me.rbGreen.UseVisualStyleBackColor = True
+        Me.rbRed.AutoSize = True
+        Me.rbRed.Location = New System.Drawing.Point(48, 131)
+        Me.rbRed.Name = "rbRed"
+        Me.rbRed.Size = New System.Drawing.Size(64, 24)
+        Me.rbRed.TabIndex = 2
+        Me.rbRed.TabStop = True
+        Me.rbRed.Text = "Red"
+        Me.rbRed.UseVisualStyleBackColor = True
         '
         'rbBlue
         '
@@ -185,16 +192,16 @@ Partial Class Form2
         Me.rbBlue.Text = "Blue"
         Me.rbBlue.UseVisualStyleBackColor = True
         '
-        'rbRed
+        'rbGreen
         '
-        Me.rbRed.AutoSize = True
-        Me.rbRed.Location = New System.Drawing.Point(48, 131)
-        Me.rbRed.Name = "rbRed"
-        Me.rbRed.Size = New System.Drawing.Size(64, 24)
-        Me.rbRed.TabIndex = 2
-        Me.rbRed.TabStop = True
-        Me.rbRed.Text = "Red"
-        Me.rbRed.UseVisualStyleBackColor = True
+        Me.rbGreen.AutoSize = True
+        Me.rbGreen.Location = New System.Drawing.Point(48, 41)
+        Me.rbGreen.Name = "rbGreen"
+        Me.rbGreen.Size = New System.Drawing.Size(79, 24)
+        Me.rbGreen.TabIndex = 0
+        Me.rbGreen.TabStop = True
+        Me.rbGreen.Text = "Green"
+        Me.rbGreen.UseVisualStyleBackColor = True
         '
         'btnLoadPicture
         '
@@ -214,13 +221,6 @@ Partial Class Form2
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
-        'txtSampleTest
-        '
-        Me.txtSampleTest.Location = New System.Drawing.Point(24, 49)
-        Me.txtSampleTest.Name = "txtSampleTest"
-        Me.txtSampleTest.Size = New System.Drawing.Size(151, 26)
-        Me.txtSampleTest.TabIndex = 0
-        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -234,7 +234,7 @@ Partial Class Form2
         Me.Controls.Add(Me.gbFont)
         Me.Controls.Add(Me.gbDisplayTest)
         Me.Name = "Form2"
-        Me.Text = "Form2"
+        Me.Text = "Object Demonstrations"
         Me.gbDisplayTest.ResumeLayout(False)
         Me.gbDisplayTest.PerformLayout()
         Me.gbFont.ResumeLayout(False)
